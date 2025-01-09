@@ -4,8 +4,9 @@
 //   (C)Robert Grueneis/HTL Grieskirchen 
 //----------------------------------------
 using GrueneisR.RestClientGenerator;
-
+using GrueneisR.SignalRAnalyzer;
 using Microsoft.OpenApi.Models;
+using SignalRChatter.Hubs;
 
 string corsKey = "_myAllowSpecificOrigins";
 string swaggerVersion = "v1";
@@ -36,7 +37,7 @@ builder.Services
   );
 builder.Services.AddLogging(x => x.AddCustomFormatter());
 #endregion
-
+builder.Services.AddSignalR();
 var app = builder.Build();
 
 #region -------------------------------------------- Middleware pipeline
@@ -57,6 +58,10 @@ app.UseAuthorization();
 
 app.Map("/", () => Results.Redirect("/swagger"));
 
+app.MapHub<ChatHub>("/hubs/chat");
+
+app.UseSignalRContractAnalyzer();
+app.UseSignalRUI("/hubs/chat");
 
 app.MapControllers();
 Console.WriteLine($"Ready for clients at {DateTime.Now:HH:mm:ss} ...");

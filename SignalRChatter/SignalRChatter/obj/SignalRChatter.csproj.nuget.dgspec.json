@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\SignalRChatter.csproj": {}
+    "D:\\HTLGrießkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\SignalRChatter.csproj": {}
   },
   "projects": {
-    "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\SignalRChatter.csproj": {
+    "D:\\HTLGrießkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\SignalRChatter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\SignalRChatter.csproj",
+        "projectUniqueName": "D:\\HTLGrießkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\SignalRChatter.csproj",
         "projectName": "SignalRChatter",
-        "projectPath": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\SignalRChatter.csproj",
-        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\obj\\",
+        "projectPath": "D:\\HTLGrießkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\SignalRChatter.csproj",
+        "packagesPath": "C:\\Users\\Lukas\\.nuget\\packages\\",
+        "outputPath": "D:\\HTLGrießkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -53,6 +53,10 @@
             "GrueneisR.RestClientGenerator": {
               "target": "Package",
               "version": "[*, )"
+            },
+            "GrueneisR.SignalRAnalyzer": {
+              "target": "Package",
+              "version": "[1.4.0, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",

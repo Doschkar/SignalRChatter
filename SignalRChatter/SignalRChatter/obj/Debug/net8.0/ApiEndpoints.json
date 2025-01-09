@@ -1,0 +1,22 @@
+[
+  {
+    "ContainingType": "SignalRChatter.Controllers.ValuesController",
+    "Method": "Dummy",
+    "RelativePath": "Values/Dummy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "SignalRChatter.Controllers.OkStatus",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

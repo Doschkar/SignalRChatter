@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\",
+  "WorkspaceRootPath": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|c:\\lukas\\htl5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|d:\\htlgrie\u00DFkirchen\\5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|solutionrelative:signalrchatter\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|c:\\lukas\\htl5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\hubs\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|solutionrelative:signalrchatter\\hubs\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|c:\\lukas\\htl5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\services\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|d:\\htlgrie\u00DFkirchen\\5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\services\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|solutionrelative:signalrchatter\\services\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|c:\\lukas\\htl5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|solutionrelative:signalrchatter\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|d:\\htlgrie\u00DFkirchen\\5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|solutionrelative:signalrchatter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|c:\\lukas\\htl5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|solutionrelative:signalrchatter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|d:\\htlgrie\u00DFkirchen\\5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\hubs\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|solutionrelative:signalrchatter\\hubs\\ichathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|d:\\htlgrie\u00DFkirchen\\5.klasse\\pos\\signalrchatter\\signalrchatter\\signalrchatter\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{891CA9FB-12FE-448E-BC40-DED355160D8E}|SignalRChatter\\SignalRChatter.csproj|solutionrelative:signalrchatter\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,19 +30,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "SignalRChatter\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Controllers\\AdminController.cs",
               "RelativeToolTip": "SignalRChatter\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,13 +47,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "IChatHub.cs",
-              "DocumentMoniker": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Hubs\\IChatHub.cs",
+              "DocumentMoniker": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Hubs\\IChatHub.cs",
               "RelativeDocumentMoniker": "SignalRChatter\\Hubs\\IChatHub.cs",
-              "ToolTip": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Hubs\\IChatHub.cs",
+              "ToolTip": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Hubs\\IChatHub.cs",
               "RelativeToolTip": "SignalRChatter\\Hubs\\IChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T15:22:44.491Z",
               "EditorCaption": ""
@@ -66,22 +62,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ChatHub.cs",
-              "DocumentMoniker": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Hubs\\ChatHub.cs",
+              "DocumentMoniker": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "SignalRChatter\\Hubs\\ChatHub.cs",
-              "ToolTip": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "SignalRChatter\\Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA8AAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T15:21:33.343Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ClientRepository.cs",
-              "DocumentMoniker": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Services\\ClientRepository.cs",
+              "DocumentMoniker": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Services\\ClientRepository.cs",
               "RelativeDocumentMoniker": "SignalRChatter\\Services\\ClientRepository.cs",
-              "ToolTip": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Services\\ClientRepository.cs",
+              "ToolTip": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Services\\ClientRepository.cs",
               "RelativeToolTip": "SignalRChatter\\Services\\ClientRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -90,15 +86,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Program.cs",
+              "DocumentMoniker": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Program.cs",
               "RelativeDocumentMoniker": "SignalRChatter\\Program.cs",
-              "ToolTip": "C:\\Lukas\\HTL5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Program.cs",
+              "ToolTip": "D:\\HTLGrie\u00DFkirchen\\5.Klasse\\POS\\SignalRChatter\\SignalRChatter\\SignalRChatter\\Program.cs",
               "RelativeToolTip": "SignalRChatter\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T15:19:19.765Z"
+              "WhenOpened": "2025-01-07T15:19:19.765Z",
+              "EditorCaption": ""
             }
           ]
         }

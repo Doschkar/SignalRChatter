@@ -4,10 +4,21 @@ namespace SignalRChatter.Hubs;
 
 public class ChatHub(ClientRepository rep) : Hub<IChatServerToClient>, IChatClientToServer
 {
+    public override Task OnConnectedAsync()
+    {
+        return base.OnConnectedAsync();
+    }
+
+    public override Task OnDisconnectedAsync(Exception? exception)
+    {
+        return base.OnDisconnectedAsync(exception);
+    }
+
     public int GetNrClients()
     {
         //Ned broadcasta till alla clients
-        //Clients.All.AdminNotification("Nigasbut");
+        //Clients.Others.AdminNotification("Nigasbut");
+        
         return rep._clients.Count;
     }
 
@@ -27,6 +38,7 @@ public class ChatHub(ClientRepository rep) : Hub<IChatServerToClient>, IChatClie
         Clients.All.ClientConnected(username);
         if (username.ToLower().StartsWith("admin"))
         {
+            //nur an die Admins
             Clients.All.NrClientsChanged(rep._clients.Count);
             return true;
         }
