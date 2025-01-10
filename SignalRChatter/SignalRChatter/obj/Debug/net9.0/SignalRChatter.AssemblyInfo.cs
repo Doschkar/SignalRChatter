@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SignalRChatter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f875cb763bb11cde7824854d21697c0d27c3a776")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aac580dc65acfd829a5848c74cbb7a2a83a81a11")]
 [assembly: System.Reflection.AssemblyProductAttribute("SignalRChatter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SignalRChatter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

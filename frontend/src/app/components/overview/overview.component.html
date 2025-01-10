@@ -1,1 +1,34 @@
-<p>overview works!</p>
+<div>
+  <div>
+    Name: <input type="text" #name /> Pwd: <input type="password" #pwd (change)="checkPassword(pwd.value)" />
+    <button [disabled]="!pwdOk" class="btn btn-success" (click)="signIn(name.value, pwd.value)">
+      SignIn
+    </button>
+    <button class="btn btn-primary" (click)="signOut()">SignOut</button>
+    <p style="color: red; font-style: italic;" [hidden]="!savedName.toLowerCase().startsWith('admin')">Admin {{clients()}} clients</p>
+  </div>
+  <div>
+    <input type="text" #msg />
+    <button [disabled]="!signedIn" class="btn btn-primary" (click)="sendMsg(msg.value)">Send</button>
+  </div>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>Timestamp</th>
+          <th>Name</th>
+          <th>Message</th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (message of messages; track $index) {
+        <tr>
+          <td style="color: blue;">{{ message.timestamp }}</td>
+          <td>{{ message.name }}</td>
+          <td>{{ message.msg }}</td>
+        </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

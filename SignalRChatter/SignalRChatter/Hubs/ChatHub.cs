@@ -16,9 +16,14 @@ public class ChatHub(ClientRepository rep) : Hub<IChatServerToClient>, IChatClie
 
     public int GetNrClients()
     {
-        //Ned broadcasta till alla clients
-        //Clients.Others.AdminNotification("Nigasbut");
-        
+        foreach (var client in rep._clients)
+        {
+            if (client.Value.Username.ToLower().StartsWith("admin"))
+            {
+                Clients.Client(client.Key).AdminNotification($"Der Admin {client.Value.Username} hat die Anzahl der Clients angefragt.");
+            }
+        }
+
         return rep._clients.Count;
     }
 
@@ -29,25 +34,46 @@ public class ChatHub(ClientRepository rep) : Hub<IChatServerToClient>, IChatClie
 
     public void SendMessage(string name, string message, string topic = "")
     {
+        this.Log(name, message);
+        rep._clients.Where(c => c.Key == Context.ConnectionId).FirstOrDefault().Value.LastMessageTime = DateTime.Now;
         Clients.All.NewMessage(name, message, DateTime.Now.ToString());
     }
 
     public bool SignIn(string username, string password)
     {
+        this.Log(username, password);
         rep._clients.Add(Context.ConnectionId, new Client { Username = username, RegisterTime = DateTime.Now, LastMessageTime = DateTime.Now });
         Clients.All.ClientConnected(username);
+
+        foreach (var client in rep._clients)
+        {
+            if (client.Value.Username.ToLower().StartsWith("admin"))
+            {
+                Clients.Client(client.Key).NrClientsChanged(rep._clients.Count);
+            }
+        }
+
         if (username.ToLower().StartsWith("admin"))
         {
-            //nur an die Admins
-            Clients.All.NrClientsChanged(rep._clients.Count);
             return true;
         }
+
         return false;
     }
 
     public void SignOut()
     {
+        this.Log("SignOut");
+
         Clients.All.ClientDisconnected(rep._clients[Context.ConnectionId].Username);
         rep._clients.Remove(Context.ConnectionId);
+
+        foreach (var client in rep._clients)
+        {
+            if (client.Value.Username.ToLower().StartsWith("admin"))
+            {
+                Clients.Client(client.Key).NrClientsChanged(rep._clients.Count);
+            }
+        }
     }
 }

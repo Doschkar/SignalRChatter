@@ -38,6 +38,7 @@ builder.Services
 builder.Services.AddLogging(x => x.AddCustomFormatter());
 #endregion
 builder.Services.AddSignalR();
+builder.Services.AddSingleton<ClientRepository>();
 var app = builder.Build();
 
 #region -------------------------------------------- Middleware pipeline
